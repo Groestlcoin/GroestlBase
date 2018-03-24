@@ -21,6 +21,9 @@
     <!-- Custom Theme Style -->
     <link href="Resources/Bootstrap/build/css/custom.min.css" rel="stylesheet" />
 
+        <!-- iCheck -->
+    <link href="Resources/Bootstrap/vendors/iCheck/skins/flat/green.css" rel="stylesheet"/>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -91,11 +94,11 @@
                         <div class="menu_section">
                             <h3>Community</h3>
                             <ul class="nav side-menu">
-                                <li><a><i class="fa fa-bug"></i>Open Bounties <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-money"></i>Open Bounties <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-windows"></i>Community Projects <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-group"></i>Community Projects <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="#">Easyminer</a></li>
                                         <li><a href="#">Groestltip Streamers</a></li>
@@ -107,7 +110,6 @@
                                 </li>
                             </ul>
                         </div>
-
                     </div>
                     <!-- /sidebar menu -->
 
@@ -146,6 +148,7 @@
 
     <!-- Custom Theme Scripts -->
     <script src="Resources/Bootstrap/build/js/custom.min.js"></script>
-
+        <!-- iCheck -->
+    <script src="Resources/Bootstrap/vendors/iCheck/icheck.min.js"></script>
 </body>
 </html>

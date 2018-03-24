@@ -10,6 +10,6 @@
 namespace GroestlBase {
     
     
-    public partial class Default {
+    public partial class Introduction {
     }
 }
