@@ -12,17 +12,17 @@
     <title>GroestlBase</title>
 
     <!-- Bootstrap -->
-    <link href="Resources/Bootstrap/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Resources/Bootstrap/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Font Awesome -->
-    <link href="Resources/Bootstrap/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Resources/Bootstrap/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <!-- NProgress -->
-    <link href="Resources/Bootstrap/vendors/nprogress/nprogress.css" rel="stylesheet" />
+    <link href="/Resources/Bootstrap/vendors/nprogress/nprogress.css" rel="stylesheet" />
 
     <!-- Custom Theme Style -->
-    <link href="Resources/Bootstrap/build/css/custom.min.css" rel="stylesheet" />
+    <link href="/Resources/Bootstrap/build/css/custom.min.css" rel="stylesheet" />
 
         <!-- iCheck -->
-    <link href="Resources/Bootstrap/vendors/iCheck/skins/flat/green.css" rel="stylesheet"/>
+    <link href="/Resources/Bootstrap/vendors/iCheck/skins/flat/green.css" rel="stylesheet"/>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -33,7 +33,7 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="Default.aspx" class="site_title"><i class="fa fa-book"></i><span style="margin-left: 5px; font-weight:lighter"><b>Groestl</b>Base</span></a>
+                        <a href="/Introduction/Introduction.aspx" class="site_title"><i class="fa fa-book"></i><span style="margin-left: 5px; font-weight:lighter"><b>Groestl</b>Base</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -41,7 +41,7 @@
                     <!-- menu profile quick info -->
                     <div class="profile clearfix" style="text-align:center; padding:0; margin:0;">
                         <div class="profile_pic" style="width:87%; padding:0; margin:0;">
-                            <img src="resources/images/groestlcoin.png" alt="Groestlcoin" class="img-circle profile_img"/>
+                            <img src="/resources/images/groestlcoin.png" alt="Groestlcoin" class="img-circle profile_img"/>
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -56,8 +56,8 @@
                             <ul class="nav side-menu">
                                 <li><a><i class="fa fa-bullhorn"></i>Introduction <span class="fa fa-chevron-down"></span></a>
                                           <ul class="nav child_menu">
-                                        <li><a href="#">Introduction</a></li>
-                                        <li><a href="#">F.A.Q</a></li>
+                                        <li><a href="/Introduction/Introduction.aspx">Introduction</a></li>
+                                        <li><a href="/Introduction/FAQ.aspx">F.A.Q</a></li>
                                         <li><a href="#">Social Channels</a></li>
                                     </ul>
                                 </li>
@@ -138,17 +138,17 @@
         </div>
     </div>
     <!-- jQuery -->
-    <script src="Resources/Bootstrap/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="/Resources/Bootstrap/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="Resources/Bootstrap/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/Resources/Bootstrap/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="Resources/Bootstrap/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="/Resources/Bootstrap/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="Resources/Bootstrap/vendors/nprogress/nprogress.js"></script>
+    <script src="/Resources/Bootstrap/vendors/nprogress/nprogress.js"></script>
 
     <!-- Custom Theme Scripts -->
-    <script src="Resources/Bootstrap/build/js/custom.min.js"></script>
+    <script src="/Resources/Bootstrap/build/js/custom.min.js"></script>
         <!-- iCheck -->
-    <script src="Resources/Bootstrap/vendors/iCheck/icheck.min.js"></script>
+    <script src="/Resources/Bootstrap/vendors/iCheck/icheck.min.js"></script>
 </body>
 </html>

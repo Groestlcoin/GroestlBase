@@ -43,7 +43,7 @@
                                 <div class="block">
                                     <div class="block_content">
                                         <h2 class="title">
-                                            <a>ASIC Resistant</a>
+                                            <a>ASIC-Free</a>
                                         </h2>
                                         <p class="excerpt">
                                             A GPU Miner’s Heaven which makes the mining distribution of this coin fairer and more even, to help prevent the centralization of the coin. Groestlcoin uses 2 rounds of pure Grøstl-512 mining algorithm and no ASIC has ever been created for it. The BAIKAL ASIC has an implementation of Myriad-Groestl, but is not compatible with Groestlcoin.
